@@ -23,6 +23,6 @@ if ($authenticated) {
     header("Location: dashboard.html");
     exit();
 } else {
-    echo "<h3>Invalid credentials. <a href='login.html'>Try again</a></h3>";
+    echo "<h3>Invalid credentials. <a href='index.html'>Try again</a></h3>";
 }
 ?>
